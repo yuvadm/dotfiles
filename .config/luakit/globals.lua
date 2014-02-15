@@ -1,6 +1,6 @@
 -- Global variables for luakit
 globals = {
-    homepage            = "http://luakit.org/",
+    homepage            = "about:blank",
  -- homepage            = "http://github.com/mason-larobina/luakit",
     scroll_step         = 40,
     zoom_step           = 0.1,
@@ -59,7 +59,7 @@ search_engines = {
 }
 
 -- Set google as fallback search engine
-search_engines.default = search_engines.google
+search_engines.default = search_engines.duckduckgo
 -- Use this instead to disable auto-searching
 --search_engines.default = "%s"
 
