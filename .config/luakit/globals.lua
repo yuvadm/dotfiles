@@ -56,6 +56,8 @@ search_engines = {
     google      = "https://google.com/search?q=%s",
     imdb        = "http://www.imdb.com/find?s=all&q=%s",
     wikipedia   = "https://en.wikipedia.org/wiki/Special:Search?search=%s",
+    aur         = "https://aur.archlinux.org/packages.php?O=0&K=%s&do_Search=Go",
+    aw          = "https://wiki.archlinux.org/index.php/Special:Search?fulltext=Search&search=%s",
 }
 
 -- Set google as fallback search engine
