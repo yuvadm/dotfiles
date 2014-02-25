@@ -18,5 +18,9 @@
 *color14:      #8abeb7
 *color15:      #ecebec
 
-urxvt*scrollBar:	false
+urxvt.scrollBar:	false
+urxvt.perl-ext-common: 	default,matcher
+urxvt.url-launcher: 	/usr/bin/firefox
+urxvt.matcher.button: 	1
+urxvt.colorUL: 		#4682B4
 
