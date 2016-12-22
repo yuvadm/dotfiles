@@ -1,6 +1,6 @@
 [user]
 	name = Yuval Adam
-	email = yuv.adm@gmail.com
+	email = _@yuv.al
 
 [color]
         diff = auto
@@ -50,5 +50,6 @@
 [core]
 	excludesfile = ~/.gitignore
         editor = vim
+
 [push]
 	default = matching
