@@ -9,7 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-exec compton -CGb
+exec compton -CGb --xrender-sync --xrender-sync-fence
 
 set $mod Mod4
 
