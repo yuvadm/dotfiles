@@ -18,7 +18,7 @@ urxvt.background:   #1d1f21
 *color14:      #8abeb7
 *color15:      #ecebec
 
-urxvt.font:		xft:gohufont
+urxvt.font:		-gohu-gohufont-medium-r-normal--14-100-100-100-c-80-iso8859-1
 urxvt.scrollBar:	false
 urxvt.perl-ext-common: 	default,matcher
 urxvt.url-launcher: 	/usr/bin/firefox
