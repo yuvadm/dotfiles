@@ -35,34 +35,36 @@ cpu_temperature 1 {
 cpu_temperature 2 {
 	format = "%degrees°"
 	path = "/sys/devices/platform/coretemp.0/hwmon/hwmon3/temp2_input"
-	color_good = "#B294BB"
+        color_good = "#B294BB"
 } 
 
 cpu_temperature 3 {
 	format = "%degrees°"
 	path = "/sys/devices/platform/coretemp.0/hwmon/hwmon3/temp3_input"
-	color_good = "#B294BB"
+        color_good = "#B294BB"
 } 
 
 wireless _first_ {
         format_up = "%ip"
         format_down = "down"
-	color_good = "#81A2BE"
+        color_good = "#81A2BE"
 }
 
 ethernet _first_ {
         # if you use %speed, i3status requires root privileges
         format_up = "%ip"
         format_down = "down"
-	color_good = "#81A2BE"
+        color_good = "#81A2BE"
 }
 
 battery 0 {
-        format = "%status %percentage %remaining"
+        format = "%status %percentage"
+        color_good = "#778900"
 }
 
 battery 1 {
-        format = "%status %percentage %remaining"
+        format = "%status %percentage"
+        color_good = "#778900"
 }
 
 run_watch DHCP {
